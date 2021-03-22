@@ -1,0 +1,132 @@
+<body>
+  <section id="wrap">
+    </header>
+
+    <section id="main">
+      <div class="nowplaying" id="titleBar"> Virtual Piano </div>
+      <div class="keys">
+        <div data-key="65" class="key" data-note="C">
+          <span class="hints">A</span>
+        </div>
+        <div data-key="87" class="key sharp" data-note="C#">
+          <span class="hints">W</span>
+        </div>
+        <div data-key="83" class="key" data-note="D">
+          <span class="hints">S</span>
+        </div>
+        <div data-key="69" class="key sharp" data-note="D#">
+          <span class="hints">E</span>
+        </div>
+        <div data-key="68" class="key" data-note="E">
+          <span class="hints">D</span>
+        </div>
+        <div data-key="70" class="key" data-note="F">
+          <span class="hints">F</span>
+        </div>
+        <div data-key="84" class="key sharp" data-note="F#">
+          <span class="hints">T</span>
+        </div>
+        <div data-key="71" class="key" data-note="G">
+          <span class="hints">G</span>
+        </div>
+        <div data-key="89" class="key sharp" data-note="G#">
+          <span class="hints">Y</span>
+        </div>
+        <div data-key="72" class="key" data-note="A">
+          <span class="hints">H</span>
+        </div>
+        <div data-key="85" class="key sharp" data-note="A#">
+          <span class="hints">U</span>
+        </div>
+        <div data-key="74" class="key" data-note="B">
+          <span class="hints">J</span>
+        </div>
+        <div data-key="75" class="key" data-note="C">
+          <span class="hints">K</span>
+        </div>
+        <div data-key="79" class="key sharp" data-note="C#">
+          <span class="hints">O</span>
+        </div>
+        <div data-key="76" class="key" data-note="D">
+          <span class="hints">L</span>
+        </div>
+        <div data-key="80" class="key sharp" data-note="D#">
+          <span class="hints">P</span>
+        </div>
+        <div data-key="186" class="key" data-note="E">
+          <span class="hints">;</span>
+        </div>
+
+      </div>
+
+      
+<center><font color="#333456" size="4"><div style = "width:250px" > <br/> Use number 1 to 3 on keyboard to switch the profile <div/></font></center>
+<div id="k" class="ke"></div> 
+
+  
+      <profile id="mm1" title="Piano Sound"> 
+        <audio data-key="65"  src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/040%20C.wav"></audio>
+        <audio data-key="87" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/041%20C%23.wav"></audio>
+        <audio data-key="83" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/042%20D.wav"></audio>
+        <audio data-key="69" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/043%20D%23.wav"></audio>
+        <audio data-key="68" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/044%20E.wav"></audio>
+        <audio data-key="70" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/045%20F.wav"></audio>
+        <audio data-key="84" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/046%20F%23.wav"></audio>
+        <audio data-key="71" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/047%20G.wav"></audio>
+        <audio data-key="89" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/048%20G%23.wav"></audio>
+        <audio data-key="72" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/049%20A.wav"></audio>
+        <audio data-key="85" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/050%20A%23.wav"></audio>
+        <audio data-key="74" src=" https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/051%20B.wav"></audio>
+        <audio data-key="75" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/052%20C.wav"></audio>
+        <audio data-key="79" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/053%20C%23.wav"></audio>
+        <audio data-key="76" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/054%20D.wav"></audio>
+        <audio data-key="80" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/055%20D%23.wav"></audio>
+        <audio data-key="186" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/1/056.wav"></audio>
+
+      </profile>
+
+      <profile id='mm2' title="Dreamy Sound">
+        <audio data-key="65" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003443/c.wav"></audio>
+        <audio data-key="87" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003444/cb.wav"></audio>
+        <audio data-key="83" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003444/d.wav"></audio>
+        <audio data-key="69" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003444/eb.wav"></audio>
+        <audio data-key="68" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003444/e.wav"></audio>
+        <audio data-key="70" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003443/f.wav"></audio>
+        <audio data-key="84" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003443/gb.wav"></audio>
+        <audio data-key="71" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003443/g.wav"></audio>
+        <audio data-key="89" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003443/fb.wav"></audio>
+        <audio data-key="72" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003443/a.wav"></audio>
+        <audio data-key="85" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003442/bb.wav"></audio>
+        <audio data-key="74" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003442/b.wav"></audio>
+        <audio data-key="75" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003443/c.wav"></audio>
+        <audio data-key="79" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003444/cb.wav"></audio>
+        <audio data-key="76" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003444/d.wav"></audio>
+        <audio data-key="80" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003444/eb.wav"></audio>
+        <audio data-key="186" src="https://res.cloudinary.com/hcrnvlizg/video/upload/v1539003444/e.wav"></audio>
+      </profile>
+  
+  
+  <profile id='mm3' title="Classical Guitar">
+        <audio data-key="65" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/C3.wav"></audio>
+        <audio data-key="87" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/C%233.wav"></audio>
+        <audio data-key="83" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/D3.wav"></audio>
+        <audio data-key="69" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/D%233.wav"></audio>
+        <audio data-key="68" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/E3.wav"></audio>
+        <audio data-key="70" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/F3.wav"></audio>
+        <audio data-key="84" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/F%233.wav"></audio>
+        <audio data-key="71" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/G3.wav"></audio>
+        <audio data-key="89" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/G%233.wav"></audio>
+        <audio data-key="72" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/A3.wav"></audio>
+        <audio data-key="85" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/A%233.wav"></audio>
+        <audio data-key="74" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/B3.wav"></audio>
+        <audio data-key="75" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/C4.wav"></audio>
+        <audio data-key="79" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/C%234.wav"></audio>
+        <audio data-key="76" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/D4.wav"></audio>
+        <audio data-key="80" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/D%234.wav"></audio>
+        <audio data-key="186" src="https://raw.githubusercontent.com/Miladtavakkoli/Piano/main/3/E4.wav"></audio>
+      </profile>
+  
+
+    </section>
+  </section>
+</body>

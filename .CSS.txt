@@ -1,0 +1,98 @@
+html  {
+        background: #1f1e1d;
+        text-align: center;
+      }
+
+    .nowplaying {
+      font-size: 60px;
+      line-height: 1;
+      color: lightgrey;
+      text-shadow: 2px 2px 5px green;
+    }
+
+    .keys {
+      top: 10px;
+      width: 70%;
+      height: 300px;  
+      max-width: 880px;
+      position: relative;
+      margin: 30px auto 5px;
+      cursor: none;
+    }
+
+    .key {
+      position: relative;
+      border: 3px solid grey;
+      border-radius: 0.4rem;
+      transition: all 0.09s ease;
+      box-sizing: border-box;
+      z-index: 2;
+    }
+
+    .key:not(.sharp) {
+      float: left;
+      width: 10%;
+      height: 100%;
+      background: white; 
+    }
+
+    .key.sharp {
+      position: absolute;
+      width: 6%;
+      height: 60%;
+      background: black;
+      color: white;
+      z-index: 3; 
+    }
+
+
+    .key[data-key="87"] {
+      left: 7%;
+    }
+
+    .key[data-key="69"] {
+      left: 17%;
+    }
+
+    .key[data-key="84"]  {
+      left: 37%;
+    }
+
+    .key[data-key="89"] {
+      left: 47%;
+    }
+
+    .key[data-key="85"] {
+      left: 57%;    
+    }
+
+    .key[data-key="79"] {
+      left: 77%;    
+    }
+
+    .key[data-key="80"] {
+      left: 87%;    
+    }
+
+.playing {
+  transform: scale(.98);
+  border-color: lightblue;
+  box-shadow: 0 0 1rem;
+}
+
+    .hints {
+      display: block;
+      width: 100%;
+      opacity: 0;
+      position: absolute;
+      bottom: 7px;
+      transition: opacity 0.09s ease-out;
+      font-size: 20px;
+    }
+
+    .keys:hover .hints {
+      opacity: 1;
+    }
+
+
+
