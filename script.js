@@ -10,7 +10,7 @@ function switchProfile(profile) {
   // switch sound profile
   var name = "mm" + profile;
   
-  var elm = document.querySelector(`Profile[id="${name}"]`);
+  var elm = document.querySelector(`profile[id="${name}"]`);
 
   if (!elm) return;//profile not defined
 
