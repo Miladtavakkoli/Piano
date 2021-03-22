@@ -39,7 +39,7 @@ function playNote(e) {
 
   var name = "mm" + currentProfile;
 
-  var elm = document.querySelector(`Profile[id="${name}"]`);
+  var elm = document.querySelector(`profile[id="${name}"]`);
 
   var audio = elm.querySelector(`audio[data-key="${e.keyCode}"]`);
   var key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
