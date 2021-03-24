@@ -53,7 +53,7 @@ function playNote(e) {
   audio.currentTime = 0;
   audio.play();
   
-  var nt=document.getElementById("titleBar");
+  var nt = document.querySelector(".nowplaying")
   nt.innerHTML = keyNote;
 }
 
