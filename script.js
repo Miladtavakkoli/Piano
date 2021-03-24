@@ -40,7 +40,7 @@ function playNote(e) {
   var name = "mm" + currentProfile;
 
   var elm = document.querySelector(`profile[id="${name}"]`);
-
+  console
   var audio = elm.querySelector(`audio[data-key="${e.keyCode}"]`);
   var key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 
@@ -49,9 +49,11 @@ function playNote(e) {
   const keyNote = key.getAttribute("data-note");
 
   key.classList.add("playing");
-  note.innerHTML = keyNote;
+  
   audio.currentTime = 0;
   audio.play();
+  
+  note.innerHTML = keyNote;
 }
 
 function removeTransition(e) {
