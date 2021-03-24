@@ -3,18 +3,17 @@ function init()
 {
   
 
-
-const keys = document.querySelectorAll(".key"),
+const keys = document.querySelectorAll(".key"), /*(Get all of the keys as element with class of key)*/
   note = document.querySelector(".nowplaying"),
-  hints = document.querySelectorAll(".hints");
+  hints = document.querySelectorAll(".hints"); /*(Use for hinting)*/
 
   var currentProfile;
-  switchProfile(1);
+  switchProfile(1); /*(Getting sounds from HTML the Piano Sound effect)*/
   
   
   hints.forEach(hintsOn);
 
-  keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
+  keys.forEach((key) => key.addEventListener("transitionend", removeTransition)); /*(As soon as the key done going to fier: "key.addEventListener" an event variable inside of it...)*/
 
   window.addEventListener("keydown", playNote);
 
@@ -22,7 +21,7 @@ const keys = document.querySelectorAll(".key"),
 }
 
 
-function switchProfile(profile) {
+function switchProfile(profile) { /*( The function called palynote is going to take an (e))*/
   // switch sound profile
   var name = "mm" + profile;
   
@@ -53,28 +52,28 @@ function playNote(e) {
     return;
   }
 
-  var name = "mm" + currentProfile;
+  var name = "mm" + currentProfile; /*(The var names are defined for refering to each 'id sound effect name' to work according to conditional orders)*/
 
   var elm = document.querySelector(`profile[id="${name}"]`);
   console
   var audio = elm.querySelector(`audio[data-key="${e.keyCode}"]`);
   var key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
-
+                              /*(The query selector() method returns the first element which matches the specified selectors)*/
   if (!key) return;
 
-  const keyNote = key.getAttribute("data-note");
+  const keyNote = key.getAttribute("data-note"); /*(Get the value of the data-note event attribute of a <button> element)*/
 
-  key.classList.add("playing");
+  key.classList.add("playing");  /*(For determining the pushed key referred to HTML part)*/
   
-  audio.currentTime = 0;
+  audio.currentTime = 0;  /*(If play a key note very fast continuously the note can be play with this command)*/
   audio.play();
   
   var nt = document.querySelector(".nowplaying")
   nt.innerHTML = keyNote;
 }
 
-function removeTransition(e) {
-  if (e.propertyName !== "transform") return;
+function removeTransition(e) {  /*(For changing the color when the key push)*/
+  if (e.propertyName !== "transform") return; /*(For return to initial state color)*/
   this.classList.remove("playing");
 }
 
