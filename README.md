@@ -24,7 +24,7 @@ VirtualPiano/
 
 ## How to use
 
-Click this link to use Virtual Piano: [LINK ](https://miladtavakkoli.github.io/Piano/)
+. Click this link to use Virtual Piano: [LINK ](https://miladtavakkoli.github.io/Piano/)
 
-Using laptop keyboard keys (A,S,D,F,G,H,J,K,L,;) as main piano notes and (W,E,T,Y,U,O,P) as dies and bemole notes.
-Using laptop keyboard keys for changing the sound effects ("1"=Piano Sound, "2"=Dreamy Sound, "3"=Classical Guitar).
+. Using laptop keyboard keys (A,S,D,F,G,H,J,K,L,;) as main piano notes and (W,E,T,Y,U,O,P) as dies and bemole notes, and as you push each key the related note will be displayed on the screan.
+. Using laptop keyboard keys for changing the sound effects ("1"=Piano Sound, "2"=Dreamy Sound, "3"=Classical Guitar).
