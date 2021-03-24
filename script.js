@@ -1,5 +1,13 @@
+
 function init()
 {
+  
+
+
+const keys = document.querySelectorAll(".key"),
+  note = document.querySelector(".nowplaying"),
+  hints = document.querySelectorAll(".hints");
+
   var currentProfile;
   switchProfile(1);
   
@@ -13,12 +21,6 @@ function init()
 
 }
 
-
-
-
-const keys = document.querySelectorAll(".key"),
-  note = document.querySelector(".nowplaying"),
-  hints = document.querySelectorAll(".hints");
 
 function switchProfile(profile) {
   // switch sound profile
