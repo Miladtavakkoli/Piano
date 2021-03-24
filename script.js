@@ -53,7 +53,8 @@ function playNote(e) {
   audio.currentTime = 0;
   audio.play();
   
-  //note.innerHTML = keyNote;
+  var nt=document.getElementById("titleBar");
+  nt.innerHTML = keyNote;
 }
 
 function removeTransition(e) {
