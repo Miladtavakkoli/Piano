@@ -26,4 +26,4 @@ VirtualPiano/
 
 Click this link to use Virtual Piano: [LINK ](https://miladtavakkoli.github.io/Piano/)
 
-Using keyboard key 
+Using keyboard keys (A,S,D,F,G,H,J,K,L,;) as main piano notes and (W,E,T,Y,U,O,P) as dies and bemole notes.
