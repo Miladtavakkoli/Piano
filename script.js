@@ -53,7 +53,7 @@ function playNote(e) {
   audio.currentTime = 0;
   audio.play();
   
-  note.innerHTML = keyNote;
+  //note.innerHTML = keyNote;
 }
 
 function removeTransition(e) {
