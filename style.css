@@ -1,42 +1,42 @@
 html  {
         background: #1f1e1d;
-        text-align: center;
+        text-align: center;  /*(It cause title of "piano sound" be center)*/
       }
 
-    .nowplaying {
-      font-size: 60px;
+    .nowplaying {   /*(refer to class "nowplaying" in HTML)*/
+      font-size: 60px;  /*(Specifications of piano title)*/
       line-height: 1;
       color: lightgrey;
-      text-shadow: 2px 2px 5px green;
+      text-shadow: 2px 2px 5px green; /*(3 parts 1:Distance 2:Two diferent position of shadow 3:Intensity color)*/
     }
 
-    .keys {
+    .keys {   /*(Specifications related to all keys by page benchmark)*/
       top: 10px;
       width: 70%;
       height: 300px;  
       max-width: 880px;
       position: relative;
-      margin: 30px auto 5px;
-      cursor: none;
+      margin: 30px auto 5px; /*The keys distance of(Top margine , Right and left margine , Bottom margine)*/
+      cursor: none;  /*(Pointer does not exist on all keys and does not work on them)*/
     }
 
     .key {
       position: relative;
       border: 3px solid grey;
-      border-radius: 0.4rem;
-      transition: all 0.09s ease;
-      box-sizing: border-box;
-      z-index: 2;
+      border-radius: 0.4rem; /*(make corner circle form)*/
+      transition: all 0.09s ease; /*(When pushing each keys the size will be change and then become the first size this is that whole time)*/
+      box-sizing: border-box; /*(this property allows us to include the pading in an element's total width&height)*/
+      z-index: 2; /*(use with the position order and we can set several layers and specify which layer should be up or down or even have overlap)*/
     }
 
-    .key:not(.sharp) {
+    .key:not(.sharp) { /*(Specifications related to white keys)*/
       float: left;
       width: 10%;
       height: 100%;
       background: white; 
     }
 
-    .key.sharp {
+    .key.sharp {  /*(Specifications related to black keys)*/
       position: absolute;
       width: 6%;
       height: 60%;
@@ -46,7 +46,7 @@ html  {
     }
 
 
-    .key[data-key="87"] {
+    .key[data-key="87"] {  /*(These precents related to the positions of each relative to the edge of the whole screen and the numbers like "87" are the laptop keyboard keys which is each key related to each virtual piano keys)*/
       left: 7%;
     }
 
@@ -77,11 +77,11 @@ html  {
 .playing {
   transform: scale(.98);
   border-color: lightblue;
-  box-shadow: 0 0 1rem;
+  box-shadow: 0 0 1rem; /*(Psition related to X axis, Position related to Y axis, Amount of opacity)*/
 }
 
     .hints {
-      display: block;
+      display: block; /*(For making the letters without moving on the keys)*/
       width: 100%;
       opacity: 0;
       position: absolute;
@@ -90,8 +90,8 @@ html  {
       font-size: 20px;
     }
 
-    .keys:hover .hints {
-      opacity: 1;
+    .keys:hover .hints { /*(Cause goes away the letters on the keys)/(Works when mouse are over the keys)*/
+      opacity: 1; /*(When your mouse is over them the opacity will be 1)*/
     }
 
 
