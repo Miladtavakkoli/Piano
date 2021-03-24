@@ -7,6 +7,7 @@ The program is divided to 3 parts which include HTML, CSS and JS.
 - **index.html**: Main html file that contains link sounds addresses and keys definitions related to virtual piano keys. There are Class and ID names which using in CSS part.
 - **style.css**: Graphic appearance of the program.
 - **script.js**: Logical codes in Java script language.
+**Note: The above files have some comments inside each file**
 
 ```text
 VirtualPiano/
@@ -17,10 +18,12 @@ VirtualPiano/
 │   └── sound files for profile #1 (Piano Sound)
 ├── 2/
 │   └── sound files for profile #2 (Dreamy Sound)
-├── 3/
-│   └── sound files for profile #3 (Classical Guitar)
+└── 3/
+    └── sound files for profile #3 (Classical Guitar)
  ```
 
 ## How to use
 
 Click this link to use Virtual Piano: [LINK ](https://miladtavakkoli.github.io/Piano/)
+
+Using keyboard key 
