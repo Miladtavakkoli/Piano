@@ -1,5 +1,19 @@
-var currentProfile;
-switchProfile(1);
+function init()
+{
+  var currentProfile;
+  switchProfile(1);
+  
+  
+  hints.forEach(hintsOn);
+
+  keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
+
+  window.addEventListener("keydown", playNote);
+
+
+}
+
+
 
 
 const keys = document.querySelectorAll(".key"),
@@ -65,10 +79,3 @@ function removeTransition(e) {
 function hintsOn(e, index) {
   e.setAttribute("style", "transition-delay:" + index * 50 + "ms");
 }
-
-hints.forEach(hintsOn);
-
-keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
-
-window.addEventListener("keydown", playNote);
-
